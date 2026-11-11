@@ -1,0 +1,33 @@
+<!--
+title: Contact — {{trustName}}
+description: Trust office address, phone and email, plus the location of every temple maintained by {{trustName}}.
+-->
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Get in touch</p>
+    <h1>Contact Us</h1>
+    <p class="lede">For darshan enquiries, seva bookings, donations or receipts, please reach the Trust office.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="info-card">
+        <h3>Trust Office</h3>
+        <p>{{address}}</p>
+        <dl class="kv">
+          <div><dt>Phone</dt><dd><a href="tel:{{phone}}">{{phoneDisplay}}</a></dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:{{email}}">{{email}}</a></dd></div>
+          <div><dt>Hours</dt><dd>{{officeHours}}</dd></div>
+        </dl>
+        <p><a class="btn" href="mailto:{{email}}">Email the Trust</a></p>
+      </div>
+      <div class="info-card">
+        <h3>Temple locations</h3>
+        <ul class="plain spaced">{{contact_temple_list}}</ul>
+      </div>
+    </div>
+  </div>
+</section>

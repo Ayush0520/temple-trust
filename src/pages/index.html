@@ -1,0 +1,78 @@
+<!--
+title: {{trustName}} — Temples, Darshan Timings & Festivals
+description: {{trustName}} maintains {{templeCount}} temples, serving devotees through daily worship, festivals, Annadanam and community service since {{established}}.
+-->
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Serving since {{established}}</p>
+    <h1>{{trustName}}</h1>
+    <p class="lede">{{tagline}}</p>
+    <div class="hero-actions">
+      <a class="btn" href="/temples.html">Explore Our Temples</a>
+      <a class="btn btn-ghost" href="/events.html">Upcoming Events</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="intro-split">
+      <div>
+        <p class="eyebrow">About the Trust</p>
+        <h2>A shared custodianship of {{templeCount}} temples</h2>
+        <p>{{intro}}</p>
+        <p><a class="link-arrow" href="/about.html">Read more about the Trust</a></p>
+      </div>
+      <dl class="stats">
+        <div><dt>Temples</dt><dd>{{templeCount}}</dd></div>
+        <div><dt>Established</dt><dd>{{established}}</dd></div>
+        <div><dt>Daily Aartis</dt><dd>{{aartiCount}}</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Our Temples</p>
+        <h2>Places of worship under the Trust</h2>
+      </div>
+      <a class="link-arrow" href="/temples.html">View all</a>
+    </div>
+    {{temples_grid}}
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">What's Next</p>
+        <h2>Upcoming events and festivals</h2>
+      </div>
+      <a class="link-arrow" href="/events.html">Full calendar</a>
+    </div>
+    {{events_preview}}
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <p class="eyebrow">Seva</p>
+    <h2>Community service</h2>
+    {{services_grid}}
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap cta-inner">
+    <div>
+      <h2>Support the Trust</h2>
+      <p>Daily worship, temple upkeep, and every community programme run on the contributions of devotees.</p>
+    </div>
+    <a class="btn btn-light" href="/donate.html">Make a Donation</a>
+  </div>
+</section>

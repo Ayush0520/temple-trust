@@ -1,0 +1,191 @@
+{
+  "trustName": "Shree Temple Trust",
+  "trustShortName": "Shree Trust",
+  "tagline": "Serving devotees and preserving sacred traditions",
+  "established": "1962",
+  "registrationNo": "REG/0000/1962",
+  "domain": "example.org",
+  "intro": "Shree Temple Trust is a registered public charitable trust that maintains and serves a group of temples. The Trust looks after daily worship, festival celebrations, temple upkeep, and a range of community services supported entirely by the devotion and generosity of its devotees.",
+  "contact": {
+    "address": "Trust Office, Main Road, City, State 000000",
+    "phone": "+91 00000 00000",
+    "phoneDisplay": "+91 00000 00000",
+    "email": "info@example.org",
+    "officeHours": "Monday to Saturday, 10:00 AM – 5:00 PM"
+  },
+  "donation": {
+    "accountName": "Shree Temple Trust",
+    "bankName": "Bank Name, Branch",
+    "accountNo": "0000 0000 0000",
+    "ifsc": "ABCD0000000",
+    "upi": "shreetrust@upi",
+    "taxNote": "Donations to the Trust are eligible for deduction under Section 80G of the Income Tax Act. A receipt is issued for every contribution."
+  },
+  "temples": [
+    {
+      "slug": "shree-mahadev-mandir",
+      "name": "Shree Mahadev Mandir",
+      "deity": "Lord Shiva",
+      "location": "Old Town, City",
+      "established": "1962",
+      "accent": "#7A1F2B",
+      "summary": "The oldest temple under the Trust, known for its Mahashivratri celebrations and the daily Rudrabhishek.",
+      "description": "Shree Mahadev Mandir is the founding temple of the Trust. The sanctum houses a self-manifested Shivalinga, and the temple has been a place of continuous worship for generations. The courtyard hosts the annual Mahashivratri night-long vigil, attended by thousands of devotees.",
+      "timings": [
+        { "label": "Morning darshan", "value": "5:30 AM – 12:00 PM" },
+        { "label": "Evening darshan", "value": "4:00 PM – 9:00 PM" }
+      ],
+      "aartis": [
+        { "label": "Mangala Aarti", "value": "6:00 AM" },
+        { "label": "Madhyahna Aarti", "value": "12:00 PM" },
+        { "label": "Sandhya Aarti", "value": "7:00 PM" }
+      ],
+      "sevas": [
+        "Rudrabhishek",
+        "Laghu Rudra",
+        "Bilvapatra Archana",
+        "Annadanam sponsorship"
+      ],
+      "festivals": ["Mahashivratri", "Shravan Somvar", "Kartik Purnima"],
+      "addressLine": "Temple Street, Old Town, City, State 000000",
+      "mapQuery": "Old Town City"
+    },
+    {
+      "slug": "shree-radha-krishna-mandir",
+      "name": "Shree Radha Krishna Mandir",
+      "deity": "Radha and Krishna",
+      "location": "Lake Road, City",
+      "established": "1978",
+      "accent": "#1F4E5A",
+      "summary": "A temple known for its bhajan sandhya every Thursday and the Janmashtami midnight celebration.",
+      "description": "Built on land donated to the Trust, Shree Radha Krishna Mandir is the centre of the Trust's devotional music tradition. The temple's marble idols of Radha and Krishna are adorned daily with fresh garlands, and the weekly bhajan sandhya has been held without a break for over four decades.",
+      "timings": [
+        { "label": "Morning darshan", "value": "6:00 AM – 11:30 AM" },
+        { "label": "Evening darshan", "value": "4:30 PM – 8:30 PM" }
+      ],
+      "aartis": [
+        { "label": "Mangala Aarti", "value": "6:15 AM" },
+        { "label": "Shringar Aarti", "value": "8:00 AM" },
+        { "label": "Sandhya Aarti", "value": "7:15 PM" }
+      ],
+      "sevas": [
+        "Tulsi Archana",
+        "Shringar Seva",
+        "Bhog Seva",
+        "Bhajan Sandhya sponsorship"
+      ],
+      "festivals": ["Janmashtami", "Radha Ashtami", "Holi", "Govardhan Puja"],
+      "addressLine": "Lake Road, City, State 000000",
+      "mapQuery": "Lake Road City"
+    },
+    {
+      "slug": "shree-durga-mandir",
+      "name": "Shree Durga Mandir",
+      "deity": "Goddess Durga",
+      "location": "Hill View, City",
+      "established": "1991",
+      "accent": "#8A4B10",
+      "summary": "Set on a hill slope, this temple draws large gatherings through both Navratri seasons.",
+      "description": "Shree Durga Mandir sits on a quiet hill slope approached by a flight of stone steps. The temple is busiest during Chaitra and Sharad Navratri, when the Trust organises nine days of continuous worship, garba in the courtyard, and free meals for all visitors.",
+      "timings": [
+        { "label": "Morning darshan", "value": "5:00 AM – 12:30 PM" },
+        { "label": "Evening darshan", "value": "4:00 PM – 9:30 PM" }
+      ],
+      "aartis": [
+        { "label": "Mangala Aarti", "value": "5:30 AM" },
+        { "label": "Sandhya Aarti", "value": "6:45 PM" }
+      ],
+      "sevas": [
+        "Chandi Path",
+        "Kumkum Archana",
+        "Chunri Seva",
+        "Navratri Akhand Jyot"
+      ],
+      "festivals": ["Chaitra Navratri", "Sharad Navratri", "Dussehra"],
+      "addressLine": "Hill View Road, City, State 000000",
+      "mapQuery": "Hill View City"
+    },
+    {
+      "slug": "shree-hanuman-mandir",
+      "name": "Shree Hanuman Mandir",
+      "deity": "Lord Hanuman",
+      "location": "Market Square, City",
+      "established": "2004",
+      "accent": "#5B3A7A",
+      "summary": "The newest temple of the Trust, with Sundarkand recitation every Tuesday and Saturday.",
+      "description": "Shree Hanuman Mandir was consecrated in 2004 to serve devotees in the heart of the market area. Despite its compact size, the temple runs a busy schedule of Sundarkand recitations, Hanuman Chalisa paths, and a daily free water and prasad counter for passers-by.",
+      "timings": [
+        { "label": "Morning darshan", "value": "6:00 AM – 12:00 PM" },
+        { "label": "Evening darshan", "value": "4:00 PM – 9:00 PM" }
+      ],
+      "aartis": [
+        { "label": "Mangala Aarti", "value": "6:30 AM" },
+        { "label": "Sandhya Aarti", "value": "7:00 PM" }
+      ],
+      "sevas": [
+        "Sundarkand Path",
+        "Sindoor Chola",
+        "Hanuman Chalisa Path",
+        "Prasad sponsorship"
+      ],
+      "festivals": ["Hanuman Jayanti", "Diwali", "Ram Navami"],
+      "addressLine": "Market Square, City, State 000000",
+      "mapQuery": "Market Square City"
+    }
+  ],
+  "events": [
+    {
+      "name": "Kartik Purnima Deepdaan",
+      "date": "2026-11-24",
+      "dateDisplay": "24 November 2026",
+      "temple": "Shree Mahadev Mandir",
+      "details": "Lamp offering at the temple tank from 5:00 PM, followed by Maha Aarti at 6:30 PM."
+    },
+    {
+      "name": "Govardhan Puja",
+      "date": "2026-11-29",
+      "dateDisplay": "29 November 2026",
+      "temple": "Shree Radha Krishna Mandir",
+      "details": "Annakut offering and darshan through the day. Prasad distribution from 12:00 PM."
+    },
+    {
+      "name": "Weekly Bhajan Sandhya",
+      "date": "2026-12-03",
+      "dateDisplay": "Every Thursday",
+      "temple": "Shree Radha Krishna Mandir",
+      "details": "Devotional singing from 7:00 PM to 9:00 PM. Open to all; devotees may request bhajans."
+    },
+    {
+      "name": "Sundarkand Path",
+      "date": "2026-12-05",
+      "dateDisplay": "Every Tuesday & Saturday",
+      "temple": "Shree Hanuman Mandir",
+      "details": "Recitation begins at 6:00 PM. Sponsorship available through the Trust office."
+    },
+    {
+      "name": "Mahashivratri",
+      "date": "2027-02-15",
+      "dateDisplay": "15 February 2027",
+      "temple": "Shree Mahadev Mandir",
+      "details": "Night-long vigil with four prahar pujas, continuous Rudrabhishek, and Annadanam."
+    }
+  ],
+  "services": [
+    {
+      "title": "Annadanam",
+      "text": "Free meals served at the temple premises on festival days and every Sunday."
+    },
+    {
+      "title": "Vedic Education",
+      "text": "Evening classes in Sanskrit shlokas, stotras, and traditional ritual for children and adults."
+    },
+    {
+      "title": "Medical Camps",
+      "text": "Quarterly free health check-up and eye care camps organised with visiting doctors."
+    },
+    {
+      "title": "Temple Conservation",
+      "text": "Ongoing repair and restoration of temple structures, idols, and ritual articles."
+    }
+  ]
+}

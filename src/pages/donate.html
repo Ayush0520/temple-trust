@@ -1,0 +1,52 @@
+<!--
+title: Donate — {{trustName}}
+description: Support temple worship, upkeep and community service at {{trustName}}. Bank transfer, UPI and in-person contributions, with 80G receipts.
+-->
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Daan</p>
+    <h1>Support the Trust</h1>
+    <p class="lede">Every rupee received goes towards worship, temple upkeep, and the Trust's community programmes. A receipt is issued for every contribution.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="donate-grid">
+      <div class="info-card">
+        <h3>Bank transfer</h3>
+        <dl class="kv">
+          <div><dt>Account name</dt><dd>{{accountName}}</dd></div>
+          <div><dt>Bank</dt><dd>{{bankName}}</dd></div>
+          <div><dt>Account number</dt><dd>{{accountNo}}</dd></div>
+          <div><dt>IFSC</dt><dd>{{ifsc}}</dd></div>
+        </dl>
+      </div>
+      <div class="info-card">
+        <h3>UPI</h3>
+        <p>Scan or pay to the Trust's UPI ID:</p>
+        <p class="upi-id">{{upi}}</p>
+        <p class="muted small">After paying, please send a screenshot to <a href="mailto:{{email}}">{{email}}</a> with your name and address so a receipt can be issued.</p>
+      </div>
+      <div class="info-card">
+        <h3>In person</h3>
+        <p>Contributions can be handed in at the Trust office or at the donation counter of any of our temples.</p>
+        <p class="muted">{{address}}<br>{{officeHours}}</p>
+      </div>
+    </div>
+
+    <div class="note">
+      <strong>Tax exemption.</strong> {{taxNote}}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <p class="eyebrow">Ways to give</p>
+    <h2>Named sevas and sponsorships</h2>
+    {{sevas_grid}}
+    <p class="muted small">To arrange a seva on a specific date, please contact the Trust office at least three days in advance.</p>
+  </div>
+</section>

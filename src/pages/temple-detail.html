@@ -1,0 +1,66 @@
+<!--
+title: {{t_name}} — {{trustName}}
+description: {{t_summary}} Darshan timings, aarti schedule, sevas and festivals at {{t_name}}, {{t_location}}.
+-->
+
+<section class="temple-head" style="--accent: {{t_accent}}">
+  <div class="wrap">
+    <nav class="crumbs"><a href="/">Home</a> <span>/</span> <a href="/temples.html">Temples</a> <span>/</span> {{t_name}}</nav>
+    <p class="eyebrow">{{t_deity}}</p>
+    <h1>{{t_name}}</h1>
+    <p class="lede">{{t_summary}}</p>
+    <ul class="meta-row">
+      <li><strong>Location</strong> {{t_location}}</li>
+      <li><strong>Established</strong> {{t_established}}</li>
+      <li><strong>Deity</strong> {{t_deity}}</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap temple-body">
+    <div class="prose">
+      <h2>About the temple</h2>
+      <p>{{t_description}}</p>
+
+      <h2>Sevas offered</h2>
+      <ul>{{t_sevas}}</ul>
+
+      <h2>Festivals observed</h2>
+      <p>{{t_festivals}}</p>
+
+      <h2>How to reach</h2>
+      <p>{{t_addressLine}}</p>
+      <p><a class="link-arrow" href="https://www.google.com/maps/search/?api=1&amp;query={{t_mapQuery}}" target="_blank" rel="noopener">Open in Google Maps</a></p>
+    </div>
+
+    <aside class="temple-aside">
+      <div class="info-card">
+        <h3>Darshan timings</h3>
+        <dl class="kv">{{t_timings}}</dl>
+      </div>
+      <div class="info-card">
+        <h3>Daily aarti</h3>
+        <dl class="kv">{{t_aartis}}</dl>
+      </div>
+      <div class="info-card accent-card">
+        <h3>Book a seva</h3>
+        <p>Sevas and sponsorships are arranged through the Trust office.</p>
+        <p><a class="btn btn-sm" href="/contact.html">Contact Office</a></p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Also under the Trust</p>
+        <h2>Other temples</h2>
+      </div>
+      <a class="link-arrow" href="/temples.html">View all</a>
+    </div>
+    {{t_other_temples}}
+  </div>
+</section>

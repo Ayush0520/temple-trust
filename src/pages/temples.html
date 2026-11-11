@@ -1,0 +1,27 @@
+<!--
+title: Our Temples — {{trustName}}
+description: The {{templeCount}} temples maintained by {{trustName}}, with deities, locations, darshan timings and festival details.
+-->
+
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Our Temples</p>
+    <h1>Temples under the Trust</h1>
+    <p class="lede">Each temple keeps its own rhythm of worship. Darshan is open to all, with no fee for entry or aarti.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    {{temples_grid}}
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <p class="eyebrow">At a glance</p>
+    <h2>Darshan timings</h2>
+    {{timings_table}}
+    <p class="muted small">Timings may extend on festival days. Please call the Trust office to confirm before travelling.</p>
+  </div>
+</section>
